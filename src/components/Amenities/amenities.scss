@@ -1,0 +1,36 @@
+.amenities-section{
+    width: 50%;
+    float: left;
+    padding-left: 20px;
+    box-sizing: border-box;
+    &__title {
+	    font-family: sans-serif;
+	    font-size: 20px;
+	    color: #6f8794;
+	    margin-bottom: 25px;
+	}
+}
+.amenities-block{
+	width: 90%;
+	margin:10px auto;
+	border-bottom: 1px solid rgb(239,243,245);
+	&__title{
+		font-family: sans-serif;
+	    font-size: 16px;
+	    color: #67808d;
+	    margin-bottom: 25px;
+	}
+	&__list{
+		overflow: hidden;
+	}
+	&__item{
+		font-family: sans-serif;
+	    font-size: 14px;
+	    color: #28373e;
+	    margin-bottom: 15px;
+	    list-style: none;
+	    width:30%;
+	    float: left;
+	    min-width: 157px;
+	}
+}
